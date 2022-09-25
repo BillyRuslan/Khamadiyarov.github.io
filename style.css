@@ -1,0 +1,52 @@
+h1{
+	color: #FFFFFF;
+}
+body{
+	background: #2DA848;
+	padding: 10px; 
+}
+h1{
+	text-align: center;
+}
+main{
+	background-color: #000000;
+	width: 80%;
+	margin: auto;
+	padding: 10px;
+	dispaly: flex;
+	flex-warp: warp;
+}
+.photo{
+	width: 30%;
+	height: 200px;
+	margin: auto;
+	background-position: center;
+	background-size: cover;
+	justify-content: center;
+	transition: all 600s;
+}
+.photo:hover{
+	transform: rotate(10deg) scale(0.5);
+}
+.photo1{
+	background-image: url(images/грибы.png);
+}
+.photo2{
+	width: 30%;
+	height: 200px;
+	margin: auto;
+	background-position: center;
+	background-size: cover;
+	justify-content: center;
+
+	background-image: url(images/лисички.png);
+}
+.photo3{
+	background-image: url(images/луг.png);
+}
+.photo4{
+	background-image: url(images/скалы.png);
+}
+.photo5{
+	background-image: url(images/грузовик.png);
+}
